@@ -1,10 +1,4 @@
-<!DOCTYPE html>
- 
-<html>
-	<head>
-	</head>
-	
-	<body>
+
 		<?php
 			if(isset($_GET['email']) && isset($_GET['subject']) && isset($_GET['message']))
 			{
@@ -32,6 +26,4 @@
 				echo '<input type="submit" value="Submit">';
 				echo '</form>';
 			}		
-		?>	
-	</body>
-</html>
+		?>
